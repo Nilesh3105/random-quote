@@ -1,0 +1,67 @@
+html, body { margin: 0; padding: 0;}
+body {
+  background-color: #58ACFA;
+  color:  #58ACFA;
+  font-family: 'Raleway', sans-serif;
+}
+.button{
+  background-color: #58ACFA;
+  color:#F0F0F0;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#new-quote{
+  float:right;
+  border: 0px;
+}
+.social{
+  text-alight: centre;
+  float:left;
+  margin-left: 15px;
+  margin-right: 0px;
+  padding: 10px 12px 10px 12px;
+}
+.quote-text{
+  text-align: center;
+  margin: 30px 50px 10px 50px;
+  font-size: x-large;
+}
+.quote-author{
+  text-align: right;
+  margin: 20px;
+}
+.quote-box{
+  width: 40%;
+  margin: 10% auto auto auto;
+  background-color: #F0F0F0;
+  border-radius:5px;
+  display: table;
+}
+
+@media (max-width: 900px) and (min-device-width : 540px){
+  .quote-box{
+    width: 80%;
+  }
+}
+
+@media (max-width : 540px) {
+  .quote-box{
+    width: 95%;
+  }
+}
+
+footer{
+  text-align: center;
+  margin: 20px;
+  font-size: x-small;
+  color: #F0F0F0;
+}
+a {
+  text-decoration: none;
+  color: #F0F0F0;
+}
+.button:hover {
+  opacity: 0.9;
+}
